@@ -9,12 +9,11 @@ var webpack = require('webpack');
 var path = require('path');
 module.exports = {
     //指定打包的入口文件，每有一个键值对，就是一个入口文件
+    //
     entry: {
-        //配置打包结果，path定义了输出的文件夹，
-        //filename则定义了打包结果文件的名称，
-        //filename里面的[name]会由entry中的键（这里是entry1和entry2）替换
-        entry: './index.jsx',
-    },
+        entry:'./index.jsx',
+    }
+    ,
     output: {
         path: path.join(__dirname, '/dist'),
         filename: 'bundle.js'
@@ -28,7 +27,7 @@ module.exports = {
      * 当然这些loader也需要通过npm install安装
      *
      *
-     * 加载器之间的级联是通过感叹号来连接
+     *
      */
     module: {
         loaders: [

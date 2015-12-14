@@ -57,7 +57,7 @@
 	var React = __webpack_require__(3);
 	var ReactDom = __webpack_require__(160);
 	ReactDom.render(React.createElement(HelloJsx, null), document.getElementById('content'));
-	alert(111);
+	alert(11);
 
 /***/ },
 /* 1 */
