@@ -6,6 +6,9 @@ npm install -g webpack
 
 
 > To Run
+之后引入webpack 热加载。。。。启动方式
+right => npm run debug
+
 
 webpack --config webpack.config.js
 npm run start

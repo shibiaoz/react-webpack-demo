@@ -7,7 +7,7 @@ class HelloWorld {
         return '('+this.x+','+this.y+')';
     }
     say() {
-        return 'hello - test!!';
+        return 'hello -2 test!!';
     }
 }
 export default HelloWorld;
